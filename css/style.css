@@ -1,0 +1,69 @@
+*{font-family: 'Lato ', sans-serif;}
+ h1,h2,h3,h4,h5{
+    font-family: 'Raleway', sans-serif;
+   
+
+ }
+
+
+
+.circular-progress{
+    position: inherit;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient( #FFC107,288deg,#343a40 0deg);
+}
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background: white;
+}
+.progress-value{
+    position: relative;
+}
+
+
+.container-item{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FFC107;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background-color:#212529 ;
+    border-bottom:  10px solid #FFC107 ;
+     
+}
+i {
+    color: #FFC107;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 0px;
+}
+
+span.num{
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+span.text{
+    color: #e0e0e0;
+    font-size:  1em;
+    text-align: center;
+    pad: 0.7em 0;
+    line-height: 0;
+}
